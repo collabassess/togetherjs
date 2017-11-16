@@ -15,6 +15,19 @@ var MongoClient = mongodb.MongoClient;
 
 var url = 'mongodb://AjayThorve:thisispassword123@ds111476.mlab.com:11476/togetherjs';
 
+MongoClient.connect(url, function (err, db) {
+    if (err) {
+        logger.info('Unable to connect to the mongoDB server. Error:', err);
+    } else {
+        logger.info('Connection established to', url);
+
+        db.createCollection('chats');
+        // do some work here with the database.
+
+        //Close connection
+       // db.close();
+    }
+});
 
 var SAMPLE_STATS_INTERVAL = 60*1000; // 1 minute
 var SAMPLE_LOAD_INTERVAL = 5*60*1000; // 5 minutes
@@ -438,17 +451,6 @@ if (require.main == module) {
     startServer(port, host);
   }
 }
-MongoClient.connect(url, function (err, db) {
-    if (err) {
-        logger.info('Unable to connect to the mongoDB server. Error:', err);
-    } else {
-        logger.info('Connection established to', url);
 
-        // do some work here with the database.
-
-        //Close connection
-        db.close();
-    }
-});
 
 exports.startServer = startServer;
