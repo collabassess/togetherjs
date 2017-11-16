@@ -7,6 +7,15 @@ if ( process.env.NEW_RELIC_HOME ) {
   require("newrelic");
 }
 
+//lets require/import the mongodb native drivers.
+var mongodb = require('mongodb');
+
+//We need to work with "MongoClient" interface in order to connect to a mongodb server.
+var MongoClient = mongodb.MongoClient;
+
+var url = 'mongodb://AjayThorve:thisispassword123@ds111476.mlab.com:11476/togetherjs';
+
+
 var SAMPLE_STATS_INTERVAL = 60*1000; // 1 minute
 var SAMPLE_LOAD_INTERVAL = 5*60*1000; // 5 minutes
 var EMPTY_ROOM_LOG_TIMEOUT = 3*60*1000; // 3 minutes
@@ -429,5 +438,17 @@ if (require.main == module) {
     startServer(port, host);
   }
 }
+MongoClient.connect(url, function (err, db) {
+    if (err) {
+        logger.info('Unable to connect to the mongoDB server. Error:', err);
+    } else {
+        logger.info('Connection established to', url);
+
+        // do some work here with the database.
+
+        //Close connection
+        db.close();
+    }
+});
 
 exports.startServer = startServer;
