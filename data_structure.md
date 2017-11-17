@@ -3,6 +3,12 @@
 1.  cursar-update
 2.  idle-status
 3.  chat (chat.js)
+<pre>
+        text: msg.text,
+        date: Date.now(),
+        peerId: msg.peer.id,
+        messageId: msg.messageId
+</pre>
 4.  key-down
 5.  form-focus
 6.  scroll-update
