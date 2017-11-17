@@ -7,27 +7,48 @@ if ( process.env.NEW_RELIC_HOME ) {
   require("newrelic");
 }
 
-//lets require/import the mongodb native drivers.
-var mongodb = require('mongodb');
-
-//We need to work with "MongoClient" interface in order to connect to a mongodb server.
-var MongoClient = mongodb.MongoClient;
-
+// Connection URL
 var url = 'mongodb://AjayThorve:thisispassword123@ds111476.mlab.com:11476/togetherjs';
 
-MongoClient.connect(url, function (err, db) {
-    if (err) {
-        logger.info('Unable to connect to the mongoDB server. Error:', err);
-    } else {
-        logger.info('Connection established to', url);
+var MongoClient = require('mongodb').MongoClient, assert = require('assert');
 
-        db.createCollection('chats');
-        // do some work here with the database.
+// Use connect method to connect to the Server
 
-        //Close connection
-       // db.close();
-    }
-});
+
+var savetodb = function(myobj) {
+  MongoClient.connect(url, function(err, db) {
+    assert.equal(null, err);
+    logger.info("Connected correctly to server at "+url);
+  
+    // db.createCollection("chats", function(err, res) {
+    //   if (err) throw err;
+    //   console.log("Collection created!");
+    //   db.close();
+    // });
+      db.collection("chats").insertOne(myobj, function(err, res) {
+        if (err) throw err;
+        console.log("1 document inserted");
+        db.close();
+      });
+  });
+}
+// var room = new mongoose.Schema({
+//   name: { type: String },
+//   created_at: Date,
+//   updated_at: { type: Date, default: Date.now },
+// });
+
+// var message = new mongoose.Schema({
+//   room: String,
+//   senderID: String,
+//   receiverID: String,
+//   messageID: {type:String, unique: true},
+//   message_body: String,
+//   message_status:{type: Boolean, default: false},
+//   created_at: { type: Date, default: Date.now },
+// });
+
+// var msg = mongoose.model('Message', message);
 
 var SAMPLE_STATS_INTERVAL = 60*1000; // 1 minute
 var SAMPLE_LOAD_INTERVAL = 5*60*1000; // 5 minutes
@@ -52,6 +73,7 @@ var fs = require('fs');
 // 4: don't show warn, do show error
 // 5: don't show anything
 // Stats are at level 2
+
 
 var thisSource = "// What follows is the source for the server.\n" +
     "// Obviously we can't prove this is the actual source, but if it isn't then we're \n" +
@@ -323,6 +345,13 @@ wsServer.on('request', function(request) {
                  (message.utf8Data && message.utf8Data.length) +
                  ' conn ID: ' + connection.ID + ' data:' + message.utf8Data.substr(0, 1000) +
                  ' connections: ' + allConnections[id].length);
+    
+    logger.info("Custom_log_ajay: type of data:"+parsed.type);
+    if(parsed.type == "chat"){
+      logger.info("Custom_log_ajay: content of chat:"+parsed.text);
+      logger.info("saving chat in the database on mlab :"+url);  
+      savetodb(parsed);
+    }
     for (var i=0; i<allConnections[id].length; i++) {
       var c = allConnections[id][i];
       if (c == connection && !parsed["server-echo"]) {
