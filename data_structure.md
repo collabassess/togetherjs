@@ -20,3 +20,20 @@ Currenly, all of this data is just logged into Logger, and can be viewed in the 
 To store the data in a mongodb/mysql database.
 
 MongoDB - Structure:
+<pre>
+Collection -> chat
+{
+        {
+                text: msg.text,
+                date: Date.now(),
+                peerId: msg.peer.id,
+                messageId: msg.messageId 
+        },
+        {
+                text: msg.text,
+                date: Date.now(),
+                peerId: msg.peer.id,
+                messageId: msg.messageId 
+        }...
+}
+</pre>
