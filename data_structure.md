@@ -8,6 +8,8 @@
         date: Date.now(),
         peerId: msg.peer.id,
         messageId: msg.messageId
+
+        <img src="chat_data_type.png"/>
 </pre>
 4.  key-down
 5.  form-focus
