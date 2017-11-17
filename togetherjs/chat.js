@@ -390,6 +390,7 @@ define(["require", "jquery", "util", "session", "ui", "templates", "playback", "
   });
   //delete chat log
   session.on("close", function(){
+    logger.info("this is the chatStorageKey"+chatStorageKey);
     storage.tab.set(chatStorageKey, undefined);
   });
 
