@@ -25,17 +25,21 @@ MongoDB - Structure:
 <pre>
 Collection -> chat
 {
+        ConversationID:
         {
-                text: msg.text,
-                date: Date.now(),
-                peerId: msg.peer.id,
-                messageId: msg.messageId 
-        },
-        {
-                text: msg.text,
-                date: Date.now(),
-                peerId: msg.peer.id,
-                messageId: msg.messageId 
-        }...
+                {
+                        text: msg.text,
+                        date: Date.now(),
+                        peerId: msg.peer.id,
+                        messageId:msg.messageId 
+                },
+                {
+                        text: msg.text,
+                        date: Date.now(),
+                        peerId: msg.peer.id,
+                        messageId:msg.messageId    
+                }
+                
+        }
 }
 </pre>
