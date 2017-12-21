@@ -425,7 +425,7 @@ define(["require", "jquery", "util", "session", "templates", "templating", "link
     }
 
     $("#togetherjs-share-button").click(function () {
-      windowing.toggle("#togetherjs-share");
+      windowing.hide();
     });
 
     $("#togetherjs-profile-button").click(function (event) {

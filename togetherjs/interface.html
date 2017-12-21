@@ -31,7 +31,7 @@
         <div class="togetherjs-person togetherjs-person-self"></div>
         <div id="togetherjs-profile-arrow"></div>
       </button>
-      <!--<button id="togetherjs-share-button" class="togetherjs-button" title="{{ gettext('Add a friend') }}"></button>-->
+      <button id="togetherjs-share-button" class="togetherjs-button" title="{{ gettext('Add a friend') }}"></button>
       <button id="togetherjs-audio-button" class="togetherjs-button" title="{{ gettext('Turn on microphone')}}">
         <span id="togetherjs-audio-unavailable" class="togetherjs-audio-set" data-toggles=".togetherjs-audio-set">
         </span>
@@ -73,21 +73,21 @@
   </div>
 
   <!-- The window for sharing the link: -->
-  <!--<div id="togetherjs-share" class="togetherjs-window"-->
-       <!--data-bind-to="#togetherjs-share-button" style="display: none">-->
-    <!--<header> {{ gettext('Invite a friend') }} </header>-->
-    <!--<section>-->
-      <!--<div class="togetherjs-not-mobile">-->
-        <!--<p>{{ gettext('Copy and paste this link over IM or email:') }}</p>-->
-        <!--<input type="text" class="togetherjs-share-link">-->
-      <!--</div>-->
-      <!--<div class="togetherjs-only-mobile">-->
-        <!--<p>{{ gettext('Copy and paste this link over IM or email:') }}</p>-->
-        <!--<input type="text" class="togetherjs-share-link">-->
-        <!--&lt;!&ndash; <a class="togetherjs-share-link" href="#">Press your thumb here.</a> &ndash;&gt;-->
-      <!--</div>-->
-    <!--</section>-->
-  <!--</div>-->
+  <div id="togetherjs-share" class="togetherjs-window"
+       data-bind-to="#togetherjs-share-button" style="display: none">
+    <header> {{ gettext('Invite a friend') }} </header>
+    <section>
+      <div class="togetherjs-not-mobile">
+        <p>{{ gettext('Copy and paste this link over IM or email:') }}</p>
+        <input type="text" class="togetherjs-share-link">
+      </div>
+      <div class="togetherjs-only-mobile">
+        <p>{{ gettext('Copy and paste this link over IM or email:') }}</p>
+        <input type="text" class="togetherjs-share-link">
+        <!-- <a class="togetherjs-share-link" href="#">Press your thumb here.</a> -->
+      </div>
+    </section>
+  </div>
 
   <!-- Participant Full List view template: -->
   <div id="togetherjs-participantlist" class="togetherjs-window"
