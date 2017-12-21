@@ -172,6 +172,16 @@ define(["require", "jquery", "util", "session", "templates", "templating", "link
       $(this).append($('<button class="togetherjs-close"></button>'));
     });
 
+    TogetherJS.config.track("disableAddNewUserButton", function (hide, previous) {
+        if (hide && ! previous) {
+            ui.container.find("#togetherjs-share-button").hide();
+            adjustDockSize(-1);
+        } else if ((! hide) && previous) {
+            ui.container.find("#togetherjs-share-button").show();
+            adjustDockSize(1);
+        }
+    });
+
     TogetherJS.config.track("disableWebRTC", function (hide, previous) {
       if (hide && ! previous) {
         ui.container.find("#togetherjs-audio-button").hide();
@@ -425,7 +435,7 @@ define(["require", "jquery", "util", "session", "templates", "templating", "link
     }
 
     $("#togetherjs-share-button").click(function () {
-      windowing.hide();
+      windowing.toggle("#togetherjs-share");
     });
 
     $("#togetherjs-profile-button").click(function (event) {

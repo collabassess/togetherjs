@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd526ceb-8876-47a1-859e-c288175fe756" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/togetherjs/interface.html" afterPath="$PROJECT_DIR$/togetherjs/interface.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/togetherjs/ui.js" afterPath="$PROJECT_DIR$/togetherjs/ui.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,10 +16,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="interface.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="interface.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/togetherjs/interface.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
+            <state relative-caret-position="199">
               <caret line="531" column="22" lean-forward="true" selection-start-line="531" selection-start-column="22" selection-end-line="531" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
@@ -109,14 +108,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ui.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ui.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/togetherjs/ui.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="428" column="7" lean-forward="true" selection-start-line="428" selection-start-column="7" selection-end-line="428" selection-end-column="7" />
+            <state relative-caret-position="212">
+              <caret line="174" column="52" lean-forward="false" selection-start-line="174" selection-start-column="29" selection-end-line="174" selection-end-column="52" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1513885338715" expanded="true" signature="41546:41657" ph="..." />
+                <marker date="1513889715118" expanded="true" signature="41941:42052" ph="..." />
               </folding>
             </state>
           </provider>
@@ -137,14 +136,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>saveChat</find>
-      <find>togetherjs-audio-button</find>
       <find>display:none</find>
       <find>display:non</find>
       <find>display:</find>
       <find>togetherjs-person-url</find>
-      <find>suppressInvite</find>
       <find>hide</find>
+      <find>suppressInvite</find>
       <find>togetherjs-share-button</find>
+      <find>disableWebRTC</find>
+      <find>togetherjs-audio-button</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -259,12 +259,12 @@
       <updated>1510858745887</updated>
       <workItem from="1510858748800" duration="2663000" />
       <workItem from="1510938584907" duration="8000" />
-      <workItem from="1513880942736" duration="1421000" />
+      <workItem from="1513880942736" duration="2273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4092000" />
+    <option name="totallyTimeSpent" value="4944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -278,7 +278,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45024875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21393035" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -505,6 +505,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/interface.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="531" column="22" lean-forward="true" selection-start-line="531" selection-start-column="22" selection-end-line="531" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/togetherjs/togetherjs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6693">
@@ -517,21 +527,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/togetherjs/ui.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="428" column="7" lean-forward="true" selection-start-line="428" selection-start-column="7" selection-end-line="428" selection-end-column="7" />
+        <state relative-caret-position="212">
+          <caret line="174" column="52" lean-forward="false" selection-start-line="174" selection-start-column="29" selection-end-line="174" selection-end-column="52" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1513885338715" expanded="true" signature="41546:41657" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/interface.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="531" column="22" lean-forward="true" selection-start-line="531" selection-start-column="22" selection-end-line="531" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <marker date="1513889715118" expanded="true" signature="41941:42052" ph="..." />
           </folding>
         </state>
       </provider>
