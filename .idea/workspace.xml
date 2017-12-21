@@ -49,8 +49,8 @@
       <file leaf-file-name="interface.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/togetherjs/interface.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="86" column="23" lean-forward="true" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+            <state relative-caret-position="370">
+              <caret line="89" column="15" lean-forward="true" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -219,12 +219,12 @@
       <updated>1510858745887</updated>
       <workItem from="1510858748800" duration="2663000" />
       <workItem from="1510938584907" duration="8000" />
-      <workItem from="1513880942736" duration="509000" />
+      <workItem from="1513880942736" duration="544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3180000" />
+    <option name="totallyTimeSpent" value="3215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -411,8 +411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/togetherjs/interface.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="86" column="23" lean-forward="true" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+        <state relative-caret-position="370">
+          <caret line="89" column="15" lean-forward="true" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
           <folding />
         </state>
       </provider>
