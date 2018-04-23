@@ -3,6 +3,190 @@
   <component name="ChangeListManager">
     <list default="true" id="bd526ceb-8876-47a1-859e-c288175fe756" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/analytics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/channels.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/chat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/console.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/cursor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/elementFinder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/eventMaker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/fonts/OpenSans-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/fonts/OpenSans-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/fonts/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/forms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/functions.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/help.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/btn-menu-change-avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/button-chat-active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/button-chat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/button-end-session.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/button-mic-active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/button-mic-inactive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/button-mic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/button-pencil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/button-share-active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/button-share-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/button-share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/connect-logo@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/cursor-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/cursor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/default-avatar-waiting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/default-avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/icn-arrow-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/icn-gear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/icn-handle-circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/icn-handle-circle@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/icn-triangle-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/icn-walkthrough-arrow-l-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/icn-walkthrough-arrow-l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/icn-walkthrough-arrow-r-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/icn-walkthrough-arrow-r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/icon-close-active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/icon-close-active@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/icon-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/icon-close@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/icon-profile-triangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/notification-btn-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/notification-btn-close@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/notification-togetherjs-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/notification.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/robot-avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/togetherjs-logo-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/togetherjs-logo-open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/walkthrough-images-chat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/walkthrough-images-intro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/walkthrough-images-invite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/walkthrough-images-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/walkthrough-images-participant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/walkthrough-images-profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/images/walkthrough-images-rtc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/interface.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/jqueryPlugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/almond.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/jquery-1.11.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/require-nomin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/require.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/tinycolor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/walkabout/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/walkabout/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/walkabout/lib/esprima.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/walkabout/lib/falafel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/walkabout/node-proxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/walkabout/test_overlap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/walkabout/test_overlap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/walkabout/test_walkabout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/walkabout/test_walkabout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/walkabout/test_walkabout_nojquery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/walkabout/test_walkabout_nojquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/walkabout/traverse-rewrite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/walkabout/walkabout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/whrandom/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/whrandom/mersenne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/whrandom/random.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/whrandom/test_random.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/libs/whrandom/test_random.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/linkify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/locale/en-US.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/locale/es-BO.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/locale/pl-PL.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/locale/ru.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/mobile.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/module-descriptions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/ot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/peers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/playback.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/randomutil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/recorder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/recorder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/recorder.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/reset.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/session.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/startup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/storage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/templates-localized.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/templates.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/templating.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/ace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/codemirror4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.gitmodules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.hgignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/boilerplate/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/boilerplate/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/boilerplate/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/boilerplate/css/normalize.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/boilerplate/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/boilerplate/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/boilerplate/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/boilerplate/js/vendor/jquery-1.8.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/boilerplate/js/vendor/modernizr-2.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/doc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/example.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/include-scripts.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/retemplate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/toc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.resources/try.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/.syncignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/bin/doctest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/doctest.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/doctest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/examples/examples-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/examples/examples-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/examples/examples.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/examples/long-running-tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/examples/long-running-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/reference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/try.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/doctestjs/tutorial.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/func_ace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/func_codemirror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/func_forms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/func_misc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/func_notifications.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/func_peer_status.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/func_walkthrough.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/interactive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/manual/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/manual/multi-textarea-focus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/manual/youtube-video.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/mobiletest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/test_console.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/test_elementFinder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/test_linkify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/test_misc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/test_ot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/test_ot_text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/test_resolves.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/test_storage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/testutils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/togetherjs-animations/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/togetherjs-animations/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/togetherjs-animations/js/animations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/togetherjs-animations/js/jquery-1.8.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/tests/togetherjs-animations/js/jquery.transit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/togetherjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/togetherjs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/videos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/visibilityApi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/walkabout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/walkthrough.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/walkthrough.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/webrtc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/who.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/windowing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/togetherjs/youtubeVideos.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,97 +200,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="interface.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/togetherjs/interface.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11682">
-              <caret line="531" column="22" selection-start-line="531" selection-start-column="22" selection-end-line="531" selection-end-column="22" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/togetherjs/README.md">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="jqueryPlugins.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/togetherjs/jqueryPlugins.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="templating.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/togetherjs/templating.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="templates-localized.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/togetherjs/templates-localized.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="togetherjs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/togetherjs/togetherjs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13068">
-              <caret line="596" column="18" selection-start-line="596" selection-start-column="4" selection-end-line="596" selection-end-column="18" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ui.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/togetherjs/ui.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4004">
-              <caret line="184" column="42" selection-start-line="184" selection-start-column="29" selection-end-line="184" selection-end-column="42" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hub/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="84" />
+            <state relative-caret-position="2332">
+              <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="togetherjs.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/togetherjs/togetherjs.less">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="analytics.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/togetherjs/analytics.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -124,6 +224,15 @@
       <find>disableWebRTC</find>
       <find>togetherjs-audio-button</find>
       <find>savetodb</find>
+      <find>hello</find>
+      <find>hello-back</find>
+      <find>hello-bac</find>
+      <find>has gone to</find>
+      <find>cursor-update</find>
+      <find>Join them</find>
+      <find>togetherjs-same-url</find>
+      <find>height</find>
+      <find>togetherjs-dock</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -134,8 +243,9 @@
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/hub/server.js" />
-        <option value="$PROJECT_DIR$/togetherjs/interface.html" />
         <option value="$PROJECT_DIR$/togetherjs/ui.js" />
+        <option value="$PROJECT_DIR$/togetherjs/forms.js" />
+        <option value="$PROJECT_DIR$/togetherjs/interface.html" />
       </list>
     </option>
   </component>
@@ -226,34 +336,35 @@
       <workItem from="1522183244038" duration="150000" />
       <workItem from="1522269673208" duration="128000" />
       <workItem from="1522270214142" duration="114000" />
+      <workItem from="1524517826848" duration="1441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7621000" />
+    <option name="totallyTimeSpent" value="9062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info id="Grunt " order="2" side_tool="true" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32917705" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24665257" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="Grunt " order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28678304" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,78 +374,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/togetherjs/togetherjs.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/analytics.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hub/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7810">
-          <caret line="357" column="17" lean-forward="true" selection-start-line="357" selection-start-column="17" selection-end-line="357" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/interface.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11682">
-          <caret line="531" column="22" selection-start-line="531" selection-start-column="22" selection-end-line="531" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/jqueryPlugins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/templates.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/templating.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/templates-localized.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/togetherjs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13112">
-          <caret line="596" column="18" selection-start-line="596" selection-start-column="4" selection-end-line="596" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/togetherjs.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/analytics.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/togetherjs/ui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4048">
@@ -355,12 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/recorder.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/togetherjs/jqueryPlugins.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -369,9 +402,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/templates.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/togetherjs/templating.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -401,9 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addon/data/button.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/togetherjs/ui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3784">
@@ -414,18 +441,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/togetherjs/chat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7590">
           <caret line="345" column="19" selection-start-line="345" selection-start-column="11" selection-end-line="345" selection-end-column="19" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hub/websocket-compat.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
@@ -441,18 +462,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/togetherjs/chat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7546">
           <caret line="345" column="19" selection-start-line="345" selection-start-column="11" selection-end-line="345" selection-end-column="19" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hub/websocket-compat.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
@@ -468,23 +483,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hub/websocket-compat.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/chat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7546">
-          <caret line="345" column="19" selection-start-line="345" selection-start-column="11" selection-end-line="345" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -493,18 +495,111 @@
         <state relative-caret-position="-1546" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addon/data/button.html">
+    <entry file="file://$PROJECT_DIR$/togetherjs/eventMaker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/elementFinder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/forms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/help.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/recorder.html">
+    <entry file="file://$PROJECT_DIR$/togetherjs/linkify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/jqueryPlugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/mobile.less">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/templates.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/togetherjs/module-descriptions.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29" />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/templating.js">
+    <entry file="file://$PROJECT_DIR$/togetherjs/ot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/randomutil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/recorder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="239" column="58" selection-start-line="239" selection-start-column="58" selection-end-line="239" selection-end-column="58" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/startup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/storage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/templates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -520,58 +615,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/interface.html">
+    <entry file="file://$PROJECT_DIR$/togetherjs/templating.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11682">
-          <caret line="531" column="22" selection-start-line="531" selection-start-column="22" selection-end-line="531" selection-end-column="22" />
+        <state relative-caret-position="-29">
           <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/togetherjs/togetherjs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13068">
-          <caret line="596" column="18" selection-start-line="596" selection-start-column="4" selection-end-line="596" selection-end-column="18" />
+        <state relative-caret-position="164">
+          <caret line="72" column="18" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="18" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/togetherjs.less">
+    <entry file="file://$PROJECT_DIR$/togetherjs/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/visibilityApi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/walkabout.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/walkthrough.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/walkthrough.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/who.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/windowing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.csslint.rc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/youtubeVideos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/togetherjs/analytics.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/jqueryPlugins.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-29" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/console.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/togetherjs/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hub/server.js">
+    <entry file="file://$PROJECT_DIR$/togetherjs/cursor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="84" />
+        <state relative-caret-position="164">
+          <caret line="420" column="62" selection-start-line="420" selection-start-column="62" selection-end-line="420" selection-end-column="62" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8316">
+          <caret line="380" column="9" lean-forward="true" selection-start-line="380" selection-start-column="9" selection-end-line="380" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/channels.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/togetherjs/ui.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4004">
-          <caret line="184" column="42" selection-start-line="184" selection-start-column="29" selection-end-line="184" selection-end-column="42" />
+        <state relative-caret-position="402">
+          <caret line="1345" column="62" selection-start-line="1345" selection-start-column="43" selection-end-line="1345" selection-end-column="62" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/interface.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/togetherjs/togetherjs.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="1149" column="15" lean-forward="true" selection-start-line="1149" selection-start-column="15" selection-end-line="1149" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hub/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2332">
+          <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
         </state>
       </provider>
     </entry>
