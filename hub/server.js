@@ -29,7 +29,7 @@ var savetodb = function(myobj) {
     //   console.log("Collection created!");
     //   db.close();
     // });
-      db.collection("chats").insertOne(myobj, function(err, res) {
+      db.collection("communications").insertOne(myobj, function(err, res) {
         if (err) throw err;
         console.log("1 document inserted");
         db.close();
@@ -355,8 +355,8 @@ wsServer.on('request', function(request) {
                  ' connections: ' + allConnections[id].length);
     
     logger.info("Custom_log_ajay: type of data:"+parsed.type);
-    if(parsed.type == "chat"){
-      logger.info("Custom_log_ajay: content of chat:"+parsed.text);
+    if(parsed.type == "chat" || parsed.type == "app.form_submit_event"){
+      // logger.info("Custom_log_ajay: content of chat:"+parsed.text);
       logger.info("saving chat in the database on mlab :"+url);  
       savetodb(parsed);
     }
