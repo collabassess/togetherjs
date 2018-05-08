@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd526ceb-8876-47a1-859e-c288175fe756" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hub/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/hub/server.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hub/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="280">
+              <caret line="329" column="24" selection-start-line="329" selection-start-column="24" selection-end-line="329" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -59,6 +58,7 @@
       <find>togetherjs-same-url</find>
       <find>height</find>
       <find>togetherjs-dock</find>
+      <find>saveto</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,18 +169,18 @@
       <workItem from="1522270214142" duration="114000" />
       <workItem from="1524517826848" duration="1622000" />
       <workItem from="1524588401245" duration="1329000" />
-      <workItem from="1525754989529" duration="159000" />
+      <workItem from="1525754989529" duration="1085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10731000" />
+    <option name="totallyTimeSpent" value="11657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24665257" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24665257" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Grunt " order="2" side_tool="true" />
@@ -189,7 +189,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32917705" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18703242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -311,8 +311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hub/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="280">
+          <caret line="329" column="24" selection-start-line="329" selection-start-column="24" selection-end-line="329" selection-end-column="24" />
         </state>
       </provider>
     </entry>

@@ -325,6 +325,10 @@ wsServer.on('request', function(request) {
     type: "init-connection",
     peerCount: allConnections[id].length-1
   }));
+  connection.on('form_submit_event',function (data) {
+      console.log("sucesssss!!!!!");
+      console.log(data);
+  });
   connection.on('message', function(message) {
     var parsed;
     try {
