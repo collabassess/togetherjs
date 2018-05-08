@@ -19,8 +19,7 @@ var savetodb = function(myobj) {
   var time = Date.now || function() {
       return +new Date;
   };
-  var msg = "messageId";
-  if(msg in myobj){
+  if(myobj["messageId"] !== "NA"){
       myobj["timeStamp"] = myobj["messageId"].split("-")[1];
   }else{
       var fin_time = time();
