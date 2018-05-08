@@ -19,7 +19,15 @@ var savetodb = function(myobj) {
   var time = Date.now || function() {
       return +new Date;
   };
-  myobj["timeStamp"] = time();
+  var msg = "messageId";
+  if(msg in myobj){
+      myobj["timeStamp"] = myobj["messageId"].split("-")[1];
+  }else{
+      var fin_time = time();
+      myobj["messageId"] = myobj["clientId"]+"-"+fin_time;
+      myobj["timeStamp"] = fin_time;
+  }
+
   MongoClient.connect(url, function(err, db) {
     assert.equal(null, err);
     logger.info("Connected correctly to server at "+url);
