@@ -19,12 +19,17 @@ var savetodb = function(myobj) {
   var time = Date.now || function() {
       return +new Date;
   };
-  if(myobj["messageId"] !== "NA"){
-      myobj["timeStamp"] = myobj["messageId"].split("-")[1];
+  var msg = "messageId";
+  if(msg in myobj){
+      if(myobj["messageId"] === "NA"){
+          var time_temp = time();
+          myobj["messageId"] = myobj["clientId"]+"-"+time_temp;
+          myobj["timeStamp"] = time_temp;
+      }else{
+          myobj["timeStamp"] = myobj["messageId"].split("-")[1];
+      }
   }else{
-      var fin_time = time();
-      myobj["messageId"] = myobj["clientId"]+"-"+fin_time;
-      myobj["timeStamp"] = fin_time;
+      myobj["timeStamp"] = time();
   }
 
   MongoClient.connect(url, function(err, db) {
