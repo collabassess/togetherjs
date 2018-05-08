@@ -16,6 +16,10 @@ var MongoClient = require('mongodb').MongoClient, assert = require('assert');
 
 
 var savetodb = function(myobj) {
+  var time = Date.now || function() {
+      return +new Date;
+  };
+  myobj["timeStamp"] = time();
   MongoClient.connect(url, function(err, db) {
     assert.equal(null, err);
     logger.info("Connected correctly to server at "+url);
