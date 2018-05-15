@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bd526ceb-8876-47a1-859e-c288175fe756" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hub/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/hub/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hub/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="371" column="70" lean-forward="true" selection-start-line="371" selection-start-column="70" selection-end-line="371" selection-end-column="70" />
+            <state relative-caret-position="-2217">
+              <caret line="370" column="129" selection-start-line="370" selection-start-column="129" selection-end-line="370" selection-end-column="129" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="155">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -74,6 +74,7 @@
         <option value="$PROJECT_DIR$/togetherjs/forms.js" />
         <option value="$PROJECT_DIR$/togetherjs/interface.html" />
         <option value="$PROJECT_DIR$/hub/server.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -174,18 +175,18 @@
       <workItem from="1525754989529" duration="3006000" />
       <workItem from="1525812395224" duration="1416000" />
       <workItem from="1525883340222" duration="19000" />
-      <workItem from="1526382761042" duration="304000" />
+      <workItem from="1526382761042" duration="537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15317000" />
+    <option name="totallyTimeSpent" value="15550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24665257" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24665257" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Grunt " order="2" side_tool="true" />
@@ -194,7 +195,7 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.17705736" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4114713" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -314,17 +315,17 @@
     <entry file="file://$PROJECT_DIR$/togetherjs/ui.js" />
     <entry file="file://$PROJECT_DIR$/togetherjs/interface.html" />
     <entry file="file://$PROJECT_DIR$/togetherjs/togetherjs.less" />
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/hub/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="-2217">
+          <caret line="370" column="129" selection-start-line="370" selection-start-column="129" selection-end-line="370" selection-end-column="129" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hub/server.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="371" column="70" lean-forward="true" selection-start-line="371" selection-start-column="70" selection-end-line="371" selection-end-column="70" />
+        <state relative-caret-position="155">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

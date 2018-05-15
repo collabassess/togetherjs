@@ -3,6 +3,9 @@
 
 TogetherJS is a service for your website that makes it surprisingly easy to collaborate in real-time.
 
+togetherjs-for-OPENEDX branch -
+
+added code to save specific events to mlab, check hub/server.js for more info
 
 ### To be used with With OPEN_EDX, installing on a custom hub:
 
