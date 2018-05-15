@@ -368,7 +368,7 @@ wsServer.on('request', function(request) {
                  ' connections: ' + allConnections[id].length);
     
     logger.info("Custom_log_ajay: type of data:"+parsed.type);
-    if(parsed.type == "chat" || parsed.type == "app.form_submit_event"){
+    if(parsed.type === "chat" || parsed.type === "app.form_submit_event" || parsed.type === "app.navigate_next" || parsed.type === "app.navigate_prev"){
       // logger.info("Custom_log_ajay: content of chat:"+parsed.text);
       logger.info("saving chat in the database on mlab :"+url);  
       savetodb(parsed);
