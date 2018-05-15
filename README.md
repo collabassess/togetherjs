@@ -26,6 +26,6 @@ heroku logs --tail
 
 </pre>
 
-current url: https://calm-escarpment-25279.herokuapp.com/
+current url: https://cpsx-hub.herokuapp.com/
 
 [Data types stored in togetherJS](data_structure.md)
